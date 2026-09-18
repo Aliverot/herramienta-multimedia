@@ -13,6 +13,7 @@
 *.exe
 *.dll
 *.bin
+*.zip
 
 # Binarios locales de FFmpeg (en caso de que se descarguen en la raíz)
 /ffmpeg/
