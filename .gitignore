@@ -1,0 +1,53 @@
+# ========================================================
+# Archivos y carpetas ignorados por Git
+# ========================================================
+
+# Compilaciones y ejecutables
+/dist/
+/build/
+/SuiteMultimedia_Portable/
+/DescaradorConvertidor/
+/backup/
+/scratch/
+*.spec
+*.exe
+*.dll
+*.bin
+
+# Binarios locales de FFmpeg (en caso de que se descarguen en la raíz)
+/ffmpeg/
+
+# Python / Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# Archivos de configuración local del usuario
+config.json
+.herramienta_multimedia/
+.suite_multimedia_pro/
+
+# Logs y temporales
+*.log
+*.tmp
+
+# Archivos de IDEs / Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de sistema operativo
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
